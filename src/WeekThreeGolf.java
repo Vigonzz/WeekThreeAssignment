@@ -4,8 +4,6 @@
 * a brevity practice
 */
 
-import com.sun.source.tree.ReturnTree;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -18,7 +16,7 @@ import java.util.stream.Collectors;
 
 
 // This program is technically three lines but I seperated each step for better readability
-public class WeekThreeAssignment {
+public class WeekThreeGolf {
     public static void main (String[] args) throws IOException {
         // Load the stop words
         Set<String> stopWords = new HashSet<>(Arrays.asList(Files.readString(Path.of("../stop_words.txt")).split(",")));
