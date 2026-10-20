@@ -1,3 +1,17 @@
+/* Violet Gonzalez Oct 16, 2026
+ * Professor Cristina Verida Lopes
+ * Part 2: Follow the Infinite Mirror style which
+ * is modeled using induction, specifying the base case n0 and then n+1 rule
+ * The program needs to:
+ * " implement a recursive solution to the term frequency problem where parsing words
+ * from the stream of characters is recursive. Much like the JSON parse function, your
+ * parse function should take a character-level file reader, a list of words
+ * (initially empty), and the list of stop words, and should return a list of the non-stop words.
+ * The function should iterate to get the characters of one single word, and then recurse to get
+ * the rest of the words."
+ */
+
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
